@@ -1,0 +1,64 @@
+
+
+
+Master
+
+
+
+     1  ls
+    2  cd /
+    3  ls
+    4  cd opt/
+    5  ls
+    6  ./prometheus --config.file=prometheus.yml &
+    7  ls
+    8   tar -xvzf prometheus-2.48.1.linux-amd64.tar.gz
+    9  ls
+   10  cd .
+   11  ls
+   12  cd ..
+   13  pwd
+   14  ls
+   15  cd bin/
+   16  ls
+   17  ./prometheus --config.file=prometheus.yml &
+   18  ls
+   19  cd ..
+   20  ls
+   21  cd ..
+   22  ls
+   23  cd opt/
+   24  ls
+   25  ./prometheus --config.file=prometheus.yml &
+   26  ls
+   27  cd prometheus-2.48.1.linux-amd64/
+   28  ls
+   29  ./prometheus --config.file=prometheus.yml &
+   30  ls
+   31  history
+   32  ls
+   33  vi prometheus.yml
+   34  ./prometheus --config.file=prometheus.yml &
+   35  l
+   36  ps -ef | grep premetheus
+
+
+
+./prometheus --config.file=prometheus.yml &
+
+
+Slave
+
+ 1  ls
+    2  pwd
+    3  cd /opt
+    4  ls
+    5  wget https://github.com/prometheus/node_exporter/releases/download/v1.7.0/node_exporter-1.7.0.linux-amd64.tar.gz
+    6  ls
+    7  tar -xvzf  node_exporter-1.7.0.linux-amd64.tar.gz
+    8  ls
+    9  clear
+   10  history
+
+
+

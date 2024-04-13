@@ -1,0 +1,31 @@
+wget -O splunk-9.1.2-b6b9c8185839-Linux-x86_64.tgz "https://download.splunk.com/products/splunk/releases/9.1.2/linux/splunk-9.1.2-b6b9c8185839-Linux-x86_64.tgz"
+
+
+Master
+ 1  ls
+    2  wget -O splunk-9.1.2-b6b9c8185839-Linux-x86_64.tgz "https://download.splunk.com/products/splunk/releases/9.1.2/linux/splunk-9.1.2-b6b9c8185839-Linux-x86_64.tgz"
+    3  ls
+    4  cd /opt
+    5  ls
+    6  wget -O splunk-9.1.2-b6b9c8185839-Linux-x86_64.tgz "https://download.splunk.com/products/splunk/releases/9.1.2/linux/splunk-9.1.2-b6b9c8185839-Linux-x86_64.tgz"
+    7  tar -xvzf splunk-9.1.2-b6b9c8185839-Linux-x86_64.tgz
+    8  ls
+    9  cd splunk/
+   10  cd bin/
+   11  ./splunk start
+   12  history
+   13  ./splunk enable listen 9997
+   14  history
+
+
+Slave
+
+2  ls
+    3  tar -xvzf  splunkforwarder-9.1.2-b6b9c8185839-Linux-x86_64.tgz
+    4  ls
+    5  cd splunkforwarder/
+    6  ls
+    7  cd bin/
+    8  ls
+    9  cd splunk
+   10  ./splunk start

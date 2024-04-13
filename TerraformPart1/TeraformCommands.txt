@@ -1,0 +1,18 @@
+ 1  ls
+    2  sudo apt update
+    3  ls
+    4  unzip terraform_1.6.6_linux_amd64.zip
+    5  ls
+    6  cp terraform /usr/local/bin/
+    7  ls
+    8  vi t.tf
+    9  terraform init
+   10  terraform plan
+   11  install awscli
+   12  apt install awscli
+   13  awsconfigure
+   47  terraform init
+   48  terraform plan
+   49  terraform apply
+`	terraform destroy
+
